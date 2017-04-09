@@ -32,7 +32,6 @@ public class ATNewsPresenter {
             @Override
             public void run() {
                 List l =mknowModelList.getList();
-                Log.d("lll","abcdd"+String.valueOf(l.size()));
                 MessageEvent event = new MessageEvent();
                 event.setKnowModelList(l);
                 EventBus.getDefault().post(event);
@@ -43,7 +42,6 @@ public class ATNewsPresenter {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {
-        Log.d("sss","helloworld");
         mNewsView.setList(event.getKnowModelList());
     };
 }

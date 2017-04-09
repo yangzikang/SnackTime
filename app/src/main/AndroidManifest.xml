@@ -17,7 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ArticActivity"></activity>
+        <activity android:name=".activity.ArticActivity" />
+        <activity android:name=".activity.ChangeDailyActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
     </application>
 
 </manifest>

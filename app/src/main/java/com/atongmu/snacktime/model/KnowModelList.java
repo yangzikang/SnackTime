@@ -9,8 +9,9 @@ import java.util.List;
  */
 
 public class KnowModelList implements IknowModelList{
+    public static String daliy="";
     @Override
     public List<KnowModel> getList() {
-        return NetWork.getInstance().doNetWork("");
+        return NetWork.getInstance().doNetWork(daliy);
     }
 }
