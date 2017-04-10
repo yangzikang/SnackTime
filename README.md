@@ -1,6 +1,6 @@
 # SnackTime
 
-SnackTime 点心时间(Android)
+## SnackTime 点心时间(Android)<br>
 •自制知道日报的客户端，浏览当日的知道日报 <br>
 •采用 MVP，真正实现view与model分离 <br>
 •RecyclerView代替ListView做展示<br>
