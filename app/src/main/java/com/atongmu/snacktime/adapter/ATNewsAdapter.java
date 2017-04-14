@@ -69,7 +69,7 @@ public class ATNewsAdapter extends RecyclerView.Adapter<ATNewsAdapter.ATViewHold
                 Intent intent = new Intent(mContext, ArticActivity.class);
                 intent.putExtra("url",url);
                 mContext.startActivity(intent);
-                    Toast.makeText(mContext,String.valueOf(position),Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(mContext,String.valueOf(position),Toast.LENGTH_SHORT).show();
                 }
             });
 

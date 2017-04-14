@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.atongmu.snacktime.ATMainActivity">
+    tools:context="com.atongmu.snacktime.activity.ATMainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"

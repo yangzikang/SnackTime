@@ -1,4 +1,4 @@
-package com.atongmu.snacktime;
+package com.atongmu.snacktime.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.Toast;
 
 
-import com.atongmu.snacktime.activity.ChangeDailyActivity;
+import com.atongmu.snacktime.R;
 import com.atongmu.snacktime.adapter.ATNewsAdapter;
 import com.atongmu.snacktime.model.KnowModel;
 import com.atongmu.snacktime.model.KnowModelList;
