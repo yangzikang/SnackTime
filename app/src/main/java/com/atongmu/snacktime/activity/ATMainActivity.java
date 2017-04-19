@@ -49,14 +49,12 @@ public class ATMainActivity extends AppCompatActivity implements ATINewsView {
     }
 
     @Override
-    public void onStop() {
-        super.onStop();
+    public void onDestroy() {
+        super.onDestroy();
         EventBus.getDefault().unregister(presenter);
     }
     @Override
     public void setList(List l) {
-        Log.d("sss","www.baidu.com");
-        Log.d("lllh",String.valueOf(l.size()));
         for(int i =0;i<l.size();i++){
             Log.d("lllh",((KnowModel)l.get(i)).getTitle());
         }

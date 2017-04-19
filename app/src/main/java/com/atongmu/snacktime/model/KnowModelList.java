@@ -9,7 +9,9 @@ import java.util.List;
  */
 
 public class KnowModelList implements IknowModelList{
-    public static String daliy="";
+
+    public static String daliy=""; //外部做更新，更新的类为ChangeDailyActivity
+
     @Override
     public List<KnowModel> getList() {
         return NetWork.getInstance().doNetWork(daliy);

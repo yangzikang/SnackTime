@@ -34,7 +34,7 @@ public class ATNewsPresenter {
                 List l =mknowModelList.getList();
                 MessageEvent event = new MessageEvent();
                 event.setKnowModelList(l);
-                EventBus.getDefault().post(event);
+                EventBus.getDefault().post(event);//eventBus做事件总线
             }
         }).start();
 
